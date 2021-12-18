@@ -1,4 +1,4 @@
-alert("hi");
+
 
 console.log(2+2);
 
