@@ -60,3 +60,7 @@ console.log(minusResult);
 console.log(timesResult);
 console.log(divideResult);
 console.log(powerResult);
+
+const ageAge = prompt("how old are you");
+
+console.log(typeof ageAge, typeof parseInt(ageAge));
