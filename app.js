@@ -61,7 +61,7 @@ const powerResult = calculator.power(divideResult, minusResult);
 // console.log(divideResult);
 // console.log(powerResult);
 
-const ageAge = parseInt(prompt("how old are you"));
+//const ageAge = parseInt(prompt("how old are you"));
 
 //console.log(typeof ageAge, typeof parseInt(ageAge));
 
@@ -84,13 +84,26 @@ const ageAge = parseInt(prompt("how old are you"));
 //     console.log("thank you");
 // }
 
-const title = document.getElementById("title");
+//const title = document.getElementById("title");
+//id가 title을 찾아감
 
-title.innerText = "Got you!"; //js로 html변경
+//title.innerText = "Got you!"; //js로 html변경
 
-console.log(title.id);
+//console.log(title.id);
 //id찾아감
 //id이름 출력
-console.log(title.className);
+//console.log(title.className);
 //class찾아감
 //class이름 출력
+
+const hellos = document.getElementsByClassName("#hello");
+
+//console.log(hellos);
+
+const divTag = document.querySelector("#hello");
+//const divTag = document.getElementById("hello");
+//====>똑같은 코드
+//첫번째 선택자만 가져옴
+//다 가져오려면 querySelectorAll써야함
+//css선택자 선택할 수 있음
+//console.log(divTag);
